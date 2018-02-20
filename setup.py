@@ -34,10 +34,8 @@ setup(
     url='https://github.com/StephenC19/systeminfo',
     packages=find_packages(include=['systeminfo']),
     entry_points={
-        'console_scripts': [
-            'systeminfo=systeminfo.cli:main',
-        ],
-    },
+          'console_scripts':['comp360670_systeminfo=systeminfo.main:main']
+          },
     include_package_data=True,
     install_requires=requirements,
     license="GNU General Public License v3",
