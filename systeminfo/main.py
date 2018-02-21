@@ -6,8 +6,7 @@ Created on 30 Jan 2018
 import platform
 
 def main():
-    print(platform.platform())
-    return
+    return platform.platform()
 
 
 if __name__ == '__main__':
