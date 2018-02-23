@@ -1,5 +1,5 @@
 ==========
-systeminfo
+SystemInfo
 ==========
 
 
@@ -13,20 +13,20 @@ systeminfo
         :target: https://systeminfo.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
-
-
-Report the system information.
-
-
 * Free software: GNU General Public License v3
-* Documentation: https://systeminfo.readthedocs.io.
-
 
 Features
 --------
+A python module used to obtain the information of a local system. An extra flask application can also 
+be used to run the module once installed.
 
-* TODO
+
+Installation
+--------
+Use the following command in the command line:
+```
+pip install git+https://github.com/StephenC19/systeminfo.git
+```
 
 Credits
 -------

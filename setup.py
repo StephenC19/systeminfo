@@ -34,7 +34,7 @@ setup(
     url='https://github.com/StephenC19/systeminfo',
     packages=find_packages(include=['systeminfo']),
     entry_points={
-          'console_scripts':['comp360670_systeminfo=systeminfo.main:main']
+          'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
           },
     include_package_data=True,
     install_requires=requirements,
